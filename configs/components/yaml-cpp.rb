@@ -2,7 +2,7 @@ component "yaml-cpp" do |pkg, settings, platform|
   # Source-Related Metadata
   if platform.architecture =~ /arm/ || platform.name =~ /fedora-f24/
     pkg.version "0.5.3"
-    pkg.md5sum "9a60a3051c2ef01980c78a2d6be40ed9"
+    pkg.md5sum "e4dee0c7b4e80eb0b224ab1acbac6b42"
   else
     pkg.version "0.5.1"
     pkg.md5sum "0fa47a5ed8fedefab766592785c85ee7"
