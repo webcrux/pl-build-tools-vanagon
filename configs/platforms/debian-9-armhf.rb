@@ -1,4 +1,4 @@
-platform "debian-9-amd64" do |plat|
+platform "debian-9-armhf" do |plat|
   plat.servicedir "/lib/systemd/system"
   plat.defaultdir "/etc/default"
   plat.servicetype "systemd"
